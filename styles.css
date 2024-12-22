@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    height: 600px;
+    width: 600px;
+    flex-wrap: wrap;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: beige;
+}
+
+button{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 3px solid red;
+}
+
+.item{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
